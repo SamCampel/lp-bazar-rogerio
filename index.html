@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
@@ -30,13 +31,14 @@
                 <span class="brand-text">Bazar Central</span>
             </a>
             <nav class="main-nav">
+                <a href="#topo">Início</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#produtos">Produtos</a>
                 <a href="#diferenciais">Diferenciais</a>
                 <a href="#contato">Contato</a>
             </nav>
-            <a class="btn btn-primary nav-cta" href="https://linktr.ee/papelariabazarcentral" target="_blank"
-                rel="noopener">Nosso Instagram</a>
+            <a class="btn btn-primary nav-cta" href="https://wa.me/5511957348699" target="_blank"
+                rel="noopener noreferrer">Fale pelo WhatsApp</a>
         </div>
     </header>
 
@@ -50,7 +52,7 @@
             <p class="hero-lead">Brinquedos, papelaria, colecionáveis e achadinhos para deixar o dia mais especial. Descubra as novidades da semana na Bazar Central.</p>
             <div class="hero-actions">
                 <a class="btn btn-primary" href="https://linktr.ee/papelariabazarcentral" target="_blank" rel="noopener">Ver novidades</a>
-                <a class="btn btn-ghost" href="#contato">Como chegar</a>
+                <a class="btn btn-whatsapp" href="https://wa.me/5511957348699" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp</a>
             </div>
             <p class="hero-since">Uma loja de família em Diadema <span aria-hidden="true">·</span> <strong>desde 1982</strong></p>
         </div>
@@ -66,18 +68,87 @@
         <section class="sobre" id="sobre">
             <div class="wrap sobre-inner">
                 <div class="sobre-text">
-                    <p class="section-label">Nossa história</p>
-                    <h2>Um bazar de família, criado para durar gerações.</h2>
+                    <p class="section-label">Uma história de confiança</p>
+                    <h2>Há mais de quatro décadas fazendo parte do bairro.</h2>
                     <p>A Bazar Central nasceu em 1982 e continua no mesmo espírito até hoje: um lugar onde crianças
                         encontram o brinquedo que sonharam, estudantes acham o material que faltava e quem costura,
                         decora ou faz artesanato sempre sai com o aviamento certo. Mais de quatro décadas depois,
                         seguimos sendo aquele bazar de bairro que conhece o cliente pelo nome.</p>
                     <p>Hoje também levamos essa mesma variedade para o Instagram, onde mostramos toda semana as chegadas
                         novas — de squishies e pelúcias a cards colecionáveis e itens licenciados.</p>
+                    <a class="btn btn-primary sobre-cta" href="#produtos">Conheça nossos produtos</a>
                 </div>
                 <div class="sobre-stat">
-                    <span class="stat-number">1982</span>
-                    <span class="stat-label">ano em que tudo começou</span>
+                    <span class="stat-kicker">Tradição que continua</span>
+                    <span class="stat-number">+40</span>
+                    <span class="stat-label">anos ao lado de famílias de Diadema</span>
+                    <span class="stat-year">Desde 1982</span>
+                </div>
+            </div>
+
+            <div class="wrap reviews-wrap">
+                <div class="reviews-heading">
+                    <p class="section-label center">Palavras de quem conhece a gente</p>
+                    <h2 class="center">Clientes felizes, histórias reais</h2>
+                    <p class="reviews-intro">Atendimento atencioso e variedade para encontrar tudo pertinho de casa.</p>
+                </div>
+                <div class="novidades-carousel reviews-carousel" aria-roledescription="carrossel" aria-label="Avaliações de clientes">
+                    <button class="carousel-arrow carousel-prev" type="button" aria-label="Avaliação anterior">&#8592;</button>
+                    <div class="carousel-track" aria-live="off">
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Uma das melhores papelarias da região. Grande variedade, preços justos e um atendimento de emergência ágil e prestativo. Recomendo!”</p>
+                            <footer><strong>Thiago Oliveira</strong><span>Local Guide · 36 avaliações</span></footer>
+                        </article>
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Gostei muito do atendimento, sem contar que tudo que precisei encontrei com um preço justo.”</p>
+                            <footer><strong>Art News 10 Adesivos</strong><span>Cliente da loja</span></footer>
+                        </article>
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Material escolar todos os anos é show! Rodrigo e Iara são extremamente atenciosos e gostamos das novidades que trazem sempre.”</p>
+                            <footer><strong>Salete Vidal</strong><span>Cliente da loja</span></footer>
+                        </article>
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Atendimento incrível. Tudo o que você precisar, encontrará nessa loja. Simplesmente perfeito.”</p>
+                            <footer><strong>Laiza Araujo Ribeiro</strong><span>Cliente da loja</span></footer>
+                        </article>
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Atendimento sempre ótimo e sempre com variedade de produtos.”</p>
+                            <footer><strong>Allichele Salim</strong><span>Local Guide · 14 avaliações</span></footer>
+                        </article>
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Bom atendimento, pessoal muito atencioso. Gostei muito.”</p>
+                            <footer><strong>Pietro Araújo</strong><span>Cliente da loja</span></footer>
+                        </article>
+                        <article class="novidade-slide review-slide">
+                            <span class="review-stars" aria-label="5 de 5 estrelas">★★★★★</span>
+                            <p>“Fui no domingo, a loja estava cheia de materiais e o atendimento foi incrível. Cris e Shirley me aconselharam sobre o material para meu filho. Parabéns à equipe!”</p>
+                            <footer><strong>Thales Silva</strong><span>Cliente da loja</span></footer>
+                        </article>
+                    </div>
+                    <button class="carousel-arrow carousel-next" type="button" aria-label="Próxima avaliação">&#8594;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="novidades" id="novidades" aria-labelledby="novidades-titulo">
+            <div class="wrap novidades-inner">
+                <p class="section-label center">Acabaram de chegar</p>
+                <h2 class="center" id="novidades-titulo">Novidades</h2>
+                <div class="novidades-carousel" aria-roledescription="carrossel" aria-label="Novidades em Squishies">
+                    <button class="carousel-arrow carousel-prev" type="button" aria-label="Produto anterior">&#8592;</button>
+                    <div class="carousel-track" aria-live="off">
+                        <article class="novidade-slide"><img src="./img/SQUISH-URSINHO-CORACAO-FOFO-BAZAR-ROGERIO.webp" alt="Squish ursinho fofo com coração"></article>
+                        <article class="novidade-slide"><img src="./img/SQUISH-SURPRESA-RAINBOW-BUN-DOCE-BAZAR-ROGERIO.webp" alt="Squish surpresa Rainbow Bun doce"></article>
+                        <article class="novidade-slide"><img src="./img/SQUISH-COM-LED-BOLINHA-LUMINOSA-BAZAR-ROGERIO.webp" alt="Squish bolinha luminosa com LED"></article>
+                        <article class="novidade-slide"><img src="./img/SQUISH-BUN-CAIXA-SURPRESA-DISPLAY-BAZAR-ROGERIO.webp" alt="Squish Bun em caixa surpresa"></article>
+                    </div>
+                    <button class="carousel-arrow carousel-next" type="button" aria-label="Próximo produto">&#8594;</button>
                 </div>
             </div>
         </section>
@@ -141,6 +212,24 @@
                     </article>
 
                 </div>
+                <div class="product-carousel-group">
+                    <p class="section-label center">Papelaria &amp; artesanato</p>
+                    <h3 class="center product-carousel-title">Papelaria &amp; Criatividade</h3>
+                    <div class="novidades-carousel product-carousel" data-products="paper" aria-roledescription="carrossel" aria-label="Papelaria e criatividade">
+                        <button class="carousel-arrow carousel-prev" type="button" aria-label="Produto anterior">&#8592;</button>
+                        <div class="carousel-track" aria-live="off"></div>
+                        <button class="carousel-arrow carousel-next" type="button" aria-label="Próximo produto">&#8594;</button>
+                    </div>
+                </div>
+                <div class="product-carousel-group">
+                    <p class="section-label center">Brincar &amp; colecionar</p>
+                    <h3 class="center product-carousel-title">Brinquedos &amp; Colecionáveis</h3>
+                    <div class="novidades-carousel product-carousel" data-products="play" aria-roledescription="carrossel" aria-label="Brinquedos e colecionáveis">
+                        <button class="carousel-arrow carousel-prev" type="button" aria-label="Produto anterior">&#8592;</button>
+                        <div class="carousel-track" aria-live="off"></div>
+                        <button class="carousel-arrow carousel-next" type="button" aria-label="Próximo produto">&#8594;</button>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -174,6 +263,9 @@
                         <li>
                             <strong>Endereço</strong>
                             <span>Av. Brasília, 923 — Campanário, Diadema/SP</span>
+                            <div class="maps">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.3967816591626!2d-46.620513573288896!3d-23.663491795656203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce44ce5d099fc9%3A0xbce343ff8783a5e!2sPapelaria%20Bazar%20Central!5e0!3m2!1spt-BR!2sbr!4v1790554297331!5m2!1spt-BR!2sbr" title="Mapa da Bazar Central" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
                         </li>
                         <li>
                             <strong>Instagram</strong>
@@ -187,8 +279,9 @@
                     <div class="hero-actions">
                         <a class="btn btn-primary" href="https://linktr.ee/papelariabazarcentral" target="_blank"
                             rel="noopener">Acessar linktree</a>
-                        <a class="btn btn-ghost btn-ghost-dark" href="https://www.instagram.com/papelariabazarcentral"
-                            target="_blank" rel="noopener">@papelariabazarcentral</a>
+                        <a class="instagram-icon-button" href="https://www.instagram.com/papelariabazarcentral" target="_blank" rel="noopener noreferrer" aria-label="Visite o Instagram da Bazar Central">
+                            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="contato-visual" aria-hidden="true">
@@ -202,12 +295,97 @@
     </main>
 
     <footer class="site-footer">
-        <div class="wrap footer-inner">
-            <span>Bazar Central — Papelaria, Brinquedos e Aviamentos &middot; Diadema/SP &middot; desde 1982</span>
-            <a href="https://linktr.ee/papelariabazarcentral" target="_blank"
-                rel="noopener">linktr.ee/papelariabazarcentral</a>
+        <div class="wrap footer-content">
+            <div class="footer-brand">
+                <a href="#topo" class="footer-logo">Bazar Central</a>
+                <p>Papelaria, brinquedos e aviamentos para deixar suas ideias e momentos ainda mais especiais.</p>
+                <span class="footer-since">Em Diadema desde 1982</span>
+            </div>
+
+            <nav class="footer-column" aria-label="Navegação do rodapé">
+                <h2>Explore</h2>
+                <a href="#topo">Início</a>
+                <a href="#sobre">Nossa história</a>
+                <a href="#novidades">Novidades</a>
+                <a href="#produtos">Produtos</a>
+            </nav>
+
+            <nav class="footer-column" aria-label="Categorias de produtos">
+                <h2>Encontre</h2>
+                <a href="#produtos">Papelaria &amp; criatividade</a>
+                <a href="#produtos">Brinquedos &amp; colecionáveis</a>
+                <a href="#diferenciais">Por que escolher a gente</a>
+                <a href="#contato">Como chegar</a>
+            </nav>
+
+            <div class="footer-column footer-contact">
+                <h2>Fale com a gente</h2>
+                <p>Estamos aqui para ajudar você a encontrar o que procura.</p>
+                <a class="btn btn-outline-light" href="https://wa.me/5511957348699" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+                <a class="footer-instagram" href="https://www.instagram.com/papelariabazarcentral" target="_blank" rel="noopener noreferrer">@papelariabazarcentral</a>
+            </div>
+        </div>
+
+        <div class="wrap footer-bottom">
+            <p>© 2026 Bazar Central. Todos os direitos reservados.</p>
+            <span>Diadema/SP · Desde 1982</span>
         </div>
     </footer>
+
+    <script>
+        (() => {
+            const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+            const products = {
+                paper: `CADERNO-COLORIR-BOBBIE-GOODS-PACOTE|CADERNO-COLORIR-STITCH-DISNEY|CADERNO-DESENHO-COLORIR-BOBBIE-GOODS|CADERNO-DOS-ROSA-YOUTUBERS-ESPIRAL|CADERNO-ESPIRAL-KUROMI-SANRIO|CADERNO-ESTOJO-STITCH-DISNEY-KINDNESS|CADERNO-HARRY-POTTER-HEDWIG-HOGWARTS|CADERNO-HELLO-KITTY-ESPIRAL-DECORADO|CADERNO-HOT-WHEELS-CARROS-ESPIRAL|CADERNO-KPOP-DEMON-HUNTERS-GUERREIRAS|CADERNO-LOTSO-TOY-STORY-MORANGO|CADERNO-ONE-PIECE-LUFFY-PERSONAGEM|CADERNO-URSINHO-POOH-DISNEY-FLORAL|CADERNO2-DESENHO-COLORIR-BOBBIE-GOODS|CALCULADORA-HELLO-KITTY-GLITTER-ROSA|CALCULADORA-MESA-KAZ-PAPELARIA|CANETA-COLORIDA-PONTA-FINA-KIT|CANETA-GEL-ART-METALICO-3-CORES|CANETA-GEL-CIS-FANTASIA-CHAVEIRO-CORACAO|CANETA-HIDROCOR-12-CORES-AVENGERS|CANETINHA-HIDROCOR-FUNDO-DO-MAR-KIT|CORRETIVO-FOFY-URSINHO-ESCOLAR|E-V-A-GLITTER-COLORIDO-ARTESANATO|ESTOJO-CANETINHA-POLVO-OCEANO-KIT|ESTOJO-PERSONAGEM-KAWAII-COELHO|ESTOJO-SPIDER-MAN-MARVEL-ESCOLAR|ESTOJO-STITCH-DISNEY-SAPO|FITA-CORRETIVA-STITCH-DISNEY-CORACAO|GIBI-COLORIR-AVENGERS-CAPITAO-AMERICA|KIT-ARTISTICO-URSINHO-TEDDY-LAPIS-COLORIDO|KIT-DIARIO-PANDINHA-FOFY-MAGICAL|KIT-MARCADOR-TOUCH-24-CORES-ARTISTICO|KIT-MARCADOR-TOUCH-60-CORES-ARTISTICO|KIT-MARCADOR-TOUCH-60-PECAS-PRESENTE-EMBRULHADO|KIT2-MARCADOR-TOUCH-60-CORES-ARTISTICO|LAPIS-DE-COR-24-CORES-FABER-CASTELL-SUPERSOFT|LAPIS-DECORADO-HELLO-KITTY-GIZ-DE-CERA|LAPIS-DECORADO-KOALA-AGARRADINHO|LAPIS-DECORADO-SONIC-PERSONAGEM|LAPIS-POMPOM-MY-MELODY-SANRIO|MARCA-TEXTO-SQUEEZE-FOFY-CORES-PASTEL|MARCADOR-ARTISTICO-PONTA-PINCEL-ROSA|MARCADOR-HARRY-POTTER-COLECAO-KIT|MOCHILA-NECESSAIRE-FOFY-METALIZADA|MOCHILA-PERSONAGEM-KAWAII-KIT-ESCOLAR|MOCHILA-PRINCESAS-DISNEY-ESCOLAR|MOCHILA-ROSA-PET-IDENTIFICACAO-INFANTIL|PAPEL-CREPOM-COLORIDO-ARTESANATO|PAPEL-CREPOM-ROLO-CORES-VARIADAS|TESOURA-DINO-INFANTIL-PONTA-REDONDA|TESOURA-ESCOLAR-INFANTIL-SEM-PONTA|TESOURA-ESCOLAR-SPIDER-MAN-AVENGERS|TESOURA-SUPERSEGURA-FABER-CASTELL-INFANTIL|TNT-ROLO-AZUL-ARTESANATO|FITA-CETIM-COLORIDA-ARTESANATO|FITA-CETIM-ROLO-CORES-VARIADAS`,
+                play: `ALBUM-FIGURINHA-COPA-DO-MUNDO-PANINI|BOLA-DE-VOLEI-OFICIAL-RULXING|BONECO-GOKU-DRAGON-BALL-COLECIONAVEL|BONECO-LEGO-HELLO-KITTY-PERSONAGENS-SANRIO-COLECAO|BONECO-LEGO-SANRIO-CINNAMOROLL-KUROMI|BONECO-STITCH-DISNEY-CHAVEIRO-CAIXA-SURPRESA|BRINQUEDO-DIVERBLOC-BLOCOS-MONTAR-KIT|CAIXA-DE-SOM-ECHO-POP-ALEXA|CANECA-VIDRO-CORINTHIANS-TIMAO|CHAVEIRO-PELUCIA-CINNAMOROLL-SANRIO|CHAVEIRO-PELUCIA-HELLO-KITTY-OCULOS|CHAVEIRO-PELUCIA-LABUBU-COELHO|ESPELHO-CORACAO-PELUCIA-ROSA|GELECA-POTE-COLECAO-PERSONAGEM|GELECA-URSINHO-POTE-SUPER-FOFO|GUARDA-CHUVA-PRETO-AUTOMATICO|GUARDA-CHUVA-TRANSPARENTE-INFANTIL|HOT-WHEELS-CARRINHO-COLECIONAVEL|LANCA-CONFETE-FESTA-KIT|MASSINHA-EVA-DINOSSAURO-INFANTIL|MICRO-GELADEIRA-BRINQUEDO-MINIATURA|PELUCIA-LABUBU-COELHO-KAWAII|SLIME-ICE-CREAM-KAZ|SLIME-SORVETE-COLORIDO-KIDS|SUPER-BINGO-JOGO-FAMILIA`
+            };
+
+            document.querySelectorAll('.novidades-carousel').forEach(carousel => {
+                const track = carousel.querySelector('.carousel-track');
+                const fileNames = carousel.classList.contains('product-carousel')
+                    ? products[carousel.dataset.products].split('|').map(prefix => `${prefix}-BAZAR-ROGERIO.webp`)
+                    : [];
+                const slides = carousel.classList.contains('product-carousel')
+                    ? fileNames.map(file => {
+                        const slide = document.createElement('article');
+                        slide.className = 'novidade-slide';
+                        const img = document.createElement('img');
+                        img.src = `./img/${file}`;
+                        img.alt = file.replace(/-BAZAR-ROGERIO\.webp$/i, '').replaceAll('-', ' ').toLowerCase();
+                        slide.append(img);
+                        track.append(slide);
+                        return slide;
+                    })
+                    : [...track.querySelectorAll('.novidade-slide')];
+                let active = 0;
+                let timer;
+                const render = () => slides.forEach((slide, index) => {
+                    const offset = (index - active + slides.length + Math.floor(slides.length / 2)) % slides.length - Math.floor(slides.length / 2);
+                    slide.style.setProperty('--offset', offset);
+                    slide.classList.toggle('is-active', offset === 0);
+                    slide.setAttribute('aria-hidden', offset < -1 || offset > 1 ? 'true' : 'false');
+                });
+                const move = direction => { active = (active + direction + slides.length) % slides.length; render(); };
+                const start = () => {
+                    clearInterval(timer);
+                    if (!reducedMotion.matches) timer = setInterval(() => move(1), 5000);
+                };
+                carousel.querySelector('.carousel-prev').addEventListener('click', () => { move(-1); start(); });
+                carousel.querySelector('.carousel-next').addEventListener('click', () => { move(1); start(); });
+                carousel.addEventListener('mouseenter', () => clearInterval(timer));
+                carousel.addEventListener('mouseleave', start);
+                carousel.addEventListener('focusin', () => clearInterval(timer));
+                carousel.addEventListener('focusout', event => { if (!carousel.contains(event.relatedTarget)) start(); });
+                reducedMotion.addEventListener('change', start);
+                render();
+                start();
+            });
+        })();
+    </script>
+
+    <a href="https://wa.me/5511957348699" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </a>
 
 </body>
 
